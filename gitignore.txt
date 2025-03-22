@@ -1,0 +1,27 @@
+# Ignore the virtual environment folder
+venv/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+
+# Ignore environment configuration files
+.env
+.env.*
+
+# Ignore dependency management files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore system files
+Thumbs.db        # Windows
+
+# Ignore test coverage reports
+.coverage
+nosetests.xml
+test*.xml
